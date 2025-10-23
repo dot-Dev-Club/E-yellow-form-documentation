@@ -82,7 +82,14 @@ MIT — same license as the E-Yellow Form project.
 
 ## 👥 Authors
 
-Dot Dev Club & contributors
+**Team:** Spark Works
+- Earnest. S
+- Dickson. E
+- Niranjan. T
+- Gokul. P
+- Aries Nathya. A
+
+*By Dot Dev Club*
 
 ---
 

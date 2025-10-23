@@ -380,7 +380,19 @@ npm run dev            # Starts frontend on http://localhost:5173`}</pre>
         <ul>
           <li><strong>Support:</strong> Open an issue or contact the Dot Dev Club team.</li>
           <li><strong>License:</strong> MIT License (see LICENSE file).</li>
-          <li><strong>Authors:</strong> Dot Dev Club & contributors</li>
+          <li>
+            <strong>Authors:</strong>
+            <br />
+            <strong>Team:</strong> Spark Works
+            <ul style={{ marginTop: '8px' }}>
+              <li>Earnest. S</li>
+              <li>Dickson. E</li>
+              <li>Niranjan. T</li>
+              <li>Gokul. P</li>
+              <li>Aries Nathya. A</li>
+            </ul>
+            <span style={{ fontStyle: 'normal', fontWeight: 'normal' }}>By Dot Dev Club</span>
+          </li>
         </ul>
       </section>
 
@@ -400,10 +412,6 @@ npm run build
 # Preview production build
 npm run preview`}</pre>
       </section>
-
-      <footer className="doc-footer">
-        <p>Happy Coding! 🚀</p>
-      </footer>
     </article>
   );
 };

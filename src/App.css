@@ -1,0 +1,63 @@
+.container{
+  display:flex;
+  gap:32px;
+  max-width:1200px;
+  margin:40px auto;
+  padding:24px;
+}
+
+.sidebar{
+  width:280px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.03);
+  padding:20px;
+  border-radius:12px;
+  position:sticky;
+  top:24px;
+  height:calc(100vh - 96px);
+  overflow:auto;
+}
+
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:16px}
+.logo{
+  width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#071024;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.brand h1{font-size:18px;margin:0}
+.subtitle{color:var(--muted);font-size:13px;margin:0}
+
+.toc h2{font-size:13px;color:var(--muted);margin-top:8px}
+.toc ol{padding-left:18px;margin:6px 0}
+.toc a{color:var(--link);text-decoration:none}
+.toc a:hover{text-decoration:underline}
+
+.sidebar-footer{margin-top:18px;color:var(--muted);font-size:12px}
+
+.content{flex:1;min-width:0}
+.page-header{margin-bottom:12px}
+.page-header h1{margin:0 0 6px 0;font-size:22px}
+.lead{color:var(--muted);margin:0}
+
+.doc{background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:28px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+.doc h2{margin-top:0;color:var(--heading)}
+.doc h3{color:var(--muted-heading)}
+.doc p{line-height:1.6;color:var(--para)}
+
+.code-block{background:var(--code-bg);padding:12px;border-radius:8px;color:var(--code-color);overflow:auto;border:1px solid rgba(255,255,255,0.02);font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;font-size:13px;white-space:pre-wrap;word-wrap:break-word}
+
+ul,ol{margin-left:20px}
+li{margin:6px 0}
+
+dl{margin-left:0}
+dt{font-weight:600}
+
+a{color:var(--accent)}
+
+hr{border:none;border-top:1px solid rgba(255,255,255,0.03);margin:20px 0}
+
+.doc-footer{text-align:center;color:var(--muted);margin-top:18px}
+
+@media (max-width:900px){
+  .container{padding:16px;margin:16px}
+  .sidebar{display:none}
+}

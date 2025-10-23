@@ -92,5 +92,3 @@ MIT — same license as the E-Yellow Form project.
 *By Dot Dev Club*
 
 ---
-
-Happy Coding! 🚀

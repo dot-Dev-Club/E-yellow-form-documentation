@@ -379,7 +379,6 @@ npm run dev            # Starts frontend on http://localhost:5173`}</pre>
         <h2>Support & Licensing</h2>
         <ul>
           <li><strong>Support:</strong> Open an issue or contact the Dot Dev Club team.</li>
-          <li><strong>License:</strong> MIT License (see LICENSE file).</li>
           <li>
             <strong>Authors:</strong>
             <br />

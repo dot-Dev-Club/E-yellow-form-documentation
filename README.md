@@ -76,10 +76,6 @@ The color scheme is defined in `src/index.css` using CSS variables. You can cust
 - `--text`, `--heading`, `--para` - Text colors
 - `--code-bg`, `--code-color` - Code block colors
 
-## 📄 License
-
-MIT — same license as the E-Yellow Form project.
-
 ## 👥 Authors
 
 **Team:** Spark Works

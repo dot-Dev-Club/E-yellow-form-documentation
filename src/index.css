@@ -1,0 +1,31 @@
+:root{
+  /* Paper Dark - gradient-ready variables */
+  --bg-1: #0b0d10;
+  --bg-2: #111217;
+  --bg-3: #17171d;
+  --surface: #17171d;
+  --muted: #b8b3a7;
+  --accent: #5b9bd5;
+  --accent-2: #8fb9ff;
+  --glass: rgba(255,255,255,0.02);
+  --code-bg: #0e1320;
+  --text: #f5f3ee;
+  --link: #9ec7ff;
+  --heading: #ffffff;
+  --muted-heading: #e6e0d9;
+  --para: #e3ddd6;
+  --code-color: #bcd7ff;
+}
+
+*{box-sizing:border-box}
+
+html,body,#root{height:100%}
+
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 30%, var(--bg-3) 70%);
+  color: var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
